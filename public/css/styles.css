@@ -1,0 +1,55 @@
+/* styles.css */
+.table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: none;
+}
+
+.table th:first-child,
+.table td:first-child {
+    text-align: left;
+}
+
+.table th:last-child,
+.table td:last-child {
+    text-align: right;
+}
+
+.even-row {
+    background-color: #eeeeee;
+}
+
+.odd-row {
+    background-color: #f9f9f9;
+}
+
+.btn-custom {
+    background-color: #3097d1;
+    color: white;
+    border: none;
+    padding: 5px 30px;
+}
+
+.paginator-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.btn-custom-width {
+    width: 100%;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.8em;
+}
